@@ -1,4 +1,4 @@
-
+/* Modificação da barra de rolagem da pagina */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -13,6 +13,7 @@
   border-radius: 30px;
 }
 
+/* configurações basicas da pagina com font Poppins e border-box */
 * {
   margin: 0;
   padding: 0;
