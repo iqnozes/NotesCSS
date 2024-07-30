@@ -1,4 +1,4 @@
-/* Modificação da barra de rolagem da pagina */
+/* Estilos para WebKit (Chrome, Safari, Edge) */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -11,6 +11,18 @@
 ::-webkit-scrollbar-thumb {
   background: #6c63ff;
   border-radius: 30px;
+}
+
+/* Estilos para Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #6c63ff #000000;
+}
+
+/* Alternativamente, você pode aplicar o estilo a um contêiner específico */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #6c63ff #000000;
 }
 
 /* configurações basicas da pagina com font Poppins e border-box */
